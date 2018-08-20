@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
+ 
+}
+body {
     display: flex;
 }
-
 .page1 {
     background-color: #111111;
+    
+}
+a {
+    color: none;
 }
 
 .page2 {
