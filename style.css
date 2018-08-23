@@ -21,16 +21,25 @@ body {
 .page2 h1 {
     font-size: 36px;
     padding-left: 15px;
+    font-weight: bolder;
 }
 .page2 li {
     font-size: 20px;
     line-height: 40px;
     list-style-type: none;
 }
+
+.page2 p {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    
+}
 .row {
     display: flex;
     width: 100%;
-    border-bottom: 1px solid black;
     }
 
 .tenth {
@@ -39,4 +48,8 @@ body {
 
 .tenthx9 {
     width: 90%;
+}
+
+.tenthx5 {
+    width: 49%;
 }
