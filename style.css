@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
- 
 }
 body {
     margin: 0;
@@ -8,11 +7,11 @@ body {
     display: flex;
 }
 .page1 {
-    background-color: #111111;
-    
+    background-color: #111111;    
 }
-a {
+.page1 a {
     color: none;
+    text-decoration: none;
 }
 
 .page2 {
