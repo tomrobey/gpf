@@ -4,7 +4,6 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
 }
 .page1 {
     background-color: #111111;    
@@ -18,4 +17,26 @@ body {
     background: url("airport1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.page2 h1 {
+    font-size: 36px;
+    padding-left: 15px;
+}
+.page2 li {
+    font-size: 20px;
+    line-height: 40px;
+    list-style-type: none;
+}
+.row {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    }
+
+.fifth {
+    width: 10%;
+} 
+
+.fourFifths {
+    width: 90%;
 }
